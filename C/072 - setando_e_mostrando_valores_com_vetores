@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main() {
+    int a[199], i;
+
+    // Preenche o array com valores de 0 a 198
+    for (i = 0; i < 199; i++) {
+        a[i] = i;
+    }
+
+    // Imprime os valores do array em ordem decrescente
+    for (i = 198; i >= 0; i--) {
+        printf("\nO valor da posicao %d - %d", i, a[i]);
+    }
+
+    return 0;
+}
